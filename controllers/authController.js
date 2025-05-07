@@ -1,10 +1,10 @@
-const jwt = require('jsonwebtoken');
-const User = require('../models/User');
+const jwt = require("jsonwebtoken");
+const User = require("../models/User");
 
 // Generate JWT Token
 const generateToken = (id) => {
   return jwt.sign({ id }, process.env.JWT_SECRET, {
-    expiresIn: '30d'
+    expiresIn: "30d",
   });
 };
 
@@ -21,7 +21,7 @@ exports.register = async (req, res) => {
     if (userExists) {
       return res.status(400).json({
         success: false,
-        message: 'User already exists'
+        message: "User already exists",
       });
     }
 
@@ -30,7 +30,7 @@ exports.register = async (req, res) => {
       name,
       email,
       password,
-      role
+      role,
     });
 
     if (user) {
@@ -40,20 +40,39 @@ exports.register = async (req, res) => {
           _id: user._id,
           name: user.name,
           email: user.email,
-          role: user.role
+          role: user.role,
         },
-        token: generateToken(user._id)
+        token: generateToken(user._id),
       });
+
+      // create guide
+      const guide = await Guide.create({
+        name: user.name,
+        email: user.email,
+        ref_id: user._id,
+      });
+
+      if (guide) {
+        res.status(201).json({
+          success: true,
+          user: {
+            _id: user._id,
+            name: user.name,
+            email: user.email,
+            role: user.role,
+          },
+        });
+      }
     } else {
       res.status(400).json({
         success: false,
-        message: 'Invalid user data'
+        message: "Invalid user data",
       });
     }
   } catch (error) {
     res.status(500).json({
       success: false,
-      message: error.message
+      message: error.message,
     });
   }
 };
@@ -64,6 +83,7 @@ exports.register = async (req, res) => {
 exports.login = async (req, res) => {
   try {
     const { email, password } = req.body;
+    console.log(email, password);
 
     // Check for user
     const user = await User.findOne({ email });
@@ -75,20 +95,20 @@ exports.login = async (req, res) => {
           _id: user._id,
           name: user.name,
           email: user.email,
-          role: user.role
+          role: user.role,
         },
-        token: generateToken(user._id)
+        token: generateToken(user._id),
       });
     } else {
       res.status(401).json({
         success: false,
-        message: 'Invalid email or password'
+        message: "Invalid email or password",
       });
     }
   } catch (error) {
     res.status(500).json({
       success: false,
-      message: error.message
+      message: error.message,
     });
   }
 };
@@ -107,19 +127,19 @@ exports.getProfile = async (req, res) => {
           _id: user._id,
           name: user.name,
           email: user.email,
-          role: user.role
-        }
+          role: user.role,
+        },
       });
     } else {
       res.status(404).json({
         success: false,
-        message: 'User not found'
+        message: "User not found",
       });
     }
   } catch (error) {
     res.status(500).json({
       success: false,
-      message: error.message
+      message: error.message,
     });
   }
 };

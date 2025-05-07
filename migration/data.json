@@ -1,0 +1,335 @@
+[
+  {
+    "_id": { "$oid": "6815ad1ca0c57dfedfa83184" },
+    "name": "Pantai Natsepa",
+    "location": "Ambon, Maluku",
+    "image": "https://images.unsplash.com/photo-1552733407-5d5c46c3bb3b?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTB8fGt1dGElMjBiZWFjaHxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=800&q=60",
+    "rating": 4.7,
+    "price": 25000,
+    "category": "Pantai"
+  },
+  {
+    "_id": { "$oid": "6815ad1ca0c57dfedfa83185" },
+    "name": "Pulau Banda Neira",
+    "location": "Kepulauan Banda, Maluku",
+    "image": "https://images.unsplash.com/photo-1552733407-5d5c46c3bb3b?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTB8fGt1dGElMjBiZWFjaHxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=800&q=60",
+    "rating": 4.9,
+    "price": 1500000,
+    "category": "Pulau"
+  },
+  {
+    "_id": { "$oid": "6815ad1ca0c57dfedfa83186" },
+    "name": "Pantai Ora",
+    "location": "Pulau Seram, Maluku Tengah",
+    "image": "https://images.unsplash.com/photo-1552733407-5d5c46c3bb3b?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTB8fGt1dGElMjBiZWFjaHxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=800&q=60",
+    "rating": 4.8,
+    "price": 100000,
+    "category": "Pantai"
+  },
+  {
+    "_id": { "$oid": "6815ad1ca0c57dfedfa83187" },
+    "name": "Benteng Victoria",
+    "location": "Ambon, Maluku",
+    "image": "https://images.unsplash.com/photo-1552733407-5d5c46c3bb3b?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTB8fGt1dGElMjBiZWFjaHxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=800&q=60",
+    "rating": 4.6,
+    "price": 15000,
+    "category": "Sejarah"
+  },
+  {
+    "_id": { "$oid": "6815ad1ca0c57dfedfa83188" },
+    "name": "Taman Laut Pulau Pombo",
+    "location": "Maluku Tengah",
+    "image": "https://images.unsplash.com/photo-1552733407-5d5c46c3bb3b?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTB8fGt1dGElMjBiZWFjaHxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=800&q=60",
+    "rating": 4.7,
+    "price": 75000,
+    "category": "Bahari"
+  },
+  {
+    "_id": { "$oid": "6815ad1ca0c57dfedfa83189" },
+    "name": "Pantai Liang",
+    "location": "Ambon, Maluku",
+    "image": "https://images.unsplash.com/photo-1552733407-5d5c46c3bb3b?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTB8fGt1dGElMjBiZWFjaHxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=800&q=60",
+    "rating": 4.5,
+    "price": 20000,
+    "category": "Pantai"
+  },
+  {
+    "_id": { "$oid": "6815ad1ca0c57dfedfa83190" },
+    "name": "Pulau Ai",
+    "location": "Kepulauan Banda, Maluku",
+    "image": "https://images.unsplash.com/photo-1552733407-5d5c46c3bb3b?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTB8fGt1dGElMjBiZWFjaHxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=800&q=60",
+    "rating": 4.8,
+    "price": 1200000,
+    "category": "Pulau"
+  },
+  {
+    "_id": { "$oid": "6815ad1ca0c57dfedfa83191" },
+    "name": "Pantai Hunimua",
+    "location": "Ambon, Maluku",
+    "image": "https://images.unsplash.com/photo-1552733407-5d5c46c3bb3b?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTB8fGt1dGElMjBiZWFjaHxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=800&q=60",
+    "rating": 4.6,
+    "price": 25000,
+    "category": "Pantai"
+  },
+  {
+    "_id": { "$oid": "6815ad1ca0c57dfedfa83192" },
+    "name": "Benteng Belgica",
+    "location": "Banda Neira, Maluku",
+    "image": "https://images.unsplash.com/photo-1552733407-5d5c46c3bb3b?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTB8fGt1dGElMjBiZWFjaHxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=800&q=60",
+    "rating": 4.7,
+    "price": 25000,
+    "category": "Sejarah"
+  },
+  {
+    "_id": { "$oid": "6815ad1ca0c57dfedfa83193" },
+    "name": "Air Terjun Hoko",
+    "location": "Ternate, Maluku Utara",
+    "image": "https://images.unsplash.com/photo-1552733407-5d5c46c3bb3b?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTB8fGt1dGElMjBiZWFjaHxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=800&q=60",
+    "rating": 4.5,
+    "price": 15000,
+    "category": "Air Terjun"
+  },
+  {
+    "_id": { "$oid": "6815ad1ca0c57dfedfa83194" },
+    "name": "Pantai Ngurbloat",
+    "location": "Kei Kecil, Maluku Tenggara",
+    "image": "https://images.unsplash.com/photo-1552733407-5d5c46c3bb3b?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTB8fGt1dGElMjBiZWFjaHxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=800&q=60",
+    "rating": 4.9,
+    "price": 50000,
+    "category": "Pantai"
+  },
+  {
+    "_id": { "$oid": "6815ad1ca0c57dfedfa83195" },
+    "name": "Taman Laut Pulau Run",
+    "location": "Kepulauan Banda, Maluku",
+    "image": "https://images.unsplash.com/photo-1552733407-5d5c46c3bb3b?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTB8fGt1dGElMjBiZWFjaHxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=800&q=60",
+    "rating": 4.8,
+    "price": 100000,
+    "category": "Bahari"
+  },
+  {
+    "_id": { "$oid": "6815ad1ca0c57dfedfa83196" },
+    "name": "Pantai Pasir Panjang",
+    "location": "Kei Kecil, Maluku Tenggara",
+    "image": "https://images.unsplash.com/photo-1552733407-5d5c46c3bb3b?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTB8fGt1dGElMjBiZWFjaHxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=800&q=60",
+    "rating": 4.7,
+    "price": 35000,
+    "category": "Pantai"
+  },
+  {
+    "_id": { "$oid": "6815ad1ca0c57dfedfa83197" },
+    "name": "Benteng Duurstede",
+    "location": "Saparua, Maluku Tengah",
+    "image": "https://images.unsplash.com/photo-1552733407-5d5c46c3bb3b?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTB8fGt1dGElMjBiZWFjaHxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=800&q=60",
+    "rating": 4.6,
+    "price": 15000,
+    "category": "Sejarah"
+  },
+  {
+    "_id": { "$oid": "6815ad1ca0c57dfedfa83198" },
+    "name": "Danau Rana",
+    "location": "Buru, Maluku",
+    "image": "https://images.unsplash.com/photo-1552733407-5d5c46c3bb3b?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTB8fGt1dGElMjBiZWFjaHxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=800&q=60",
+    "rating": 4.5,
+    "price": 25000,
+    "category": "Danau"
+  },
+  {
+    "_id": { "$oid": "6815ad1ca0c57dfedfa83199" },
+    "name": "Pulau Hatta",
+    "location": "Kepulauan Banda, Maluku",
+    "image": "https://images.unsplash.com/photo-1552733407-5d5c46c3bb3b?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTB8fGt1dGElMjBiZWFjaHxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=800&q=60",
+    "rating": 4.8,
+    "price": 1300000,
+    "category": "Pulau"
+  },
+  {
+    "_id": { "$oid": "6815ad1ca0c57dfedfa83200" },
+    "name": "Air Terjun Waai",
+    "location": "Ambon, Maluku",
+    "image": "https://images.unsplash.com/photo-1552733407-5d5c46c3bb3b?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTB8fGt1dGElMjBiZWFjaHxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=800&q=60",
+    "rating": 4.5,
+    "price": 20000,
+    "category": "Air Terjun"
+  },
+  {
+    "_id": { "$oid": "6815ad1ca0c57dfedfa83201" },
+    "name": "Pulau Morotai",
+    "location": "Maluku Utara",
+    "image": "https://images.unsplash.com/photo-1552733407-5d5c46c3bb3b?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTB8fGt1dGElMjBiZWFjaHxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=800&q=60",
+    "rating": 4.7,
+    "price": 800000,
+    "category": "Pulau"
+  },
+  {
+    "_id": { "$oid": "6815ad1ca0c57dfedfa83202" },
+    "name": "Pantai Sulamadaha",
+    "location": "Ternate, Maluku Utara",
+    "image": "https://images.unsplash.com/photo-1552733407-5d5c46c3bb3b?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTB8fGt1dGElMjBiZWFjaHxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=800&q=60",
+    "rating": 4.6,
+    "price": 15000,
+    "category": "Pantai"
+  },
+  {
+    "_id": { "$oid": "6815ad1ca0c57dfedfa83203" },
+    "name": "Pulau Kei Besar",
+    "location": "Maluku Tenggara",
+    "image": "https://images.unsplash.com/photo-1552733407-5d5c46c3bb3b?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTB8fGt1dGElMjBiZWFjaHxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=800&q=60",
+    "rating": 4.7,
+    "price": 600000,
+    "category": "Pulau"
+  },
+  {
+    "_id": { "$oid": "6815ad1ca0c57dfedfa83204" },
+    "name": "Goa Hawang",
+    "location": "Kei Kecil, Maluku Tenggara",
+    "image": "https://images.unsplash.com/photo-1552733407-5d5c46c3bb3b?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTB8fGt1dGElMjBiZWFjaHxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=800&q=60",
+    "rating": 4.5,
+    "price": 25000,
+    "category": "Goa"
+  },
+  {
+    "_id": { "$oid": "6815ad1ca0c57dfedfa83205" },
+    "name": "Museum Siwalima",
+    "location": "Ambon, Maluku",
+    "image": "https://images.unsplash.com/photo-1552733407-5d5c46c3bb3b?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTB8fGt1dGElMjBiZWFjaHxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=800&q=60",
+    "rating": 4.6,
+    "price": 10000,
+    "category": "Budaya"
+  },
+  {
+    "_id": { "$oid": "6815ad1ca0c57dfedfa83206" },
+    "name": "Pantai Nusaniwe",
+    "location": "Ambon, Maluku",
+    "image": "https://images.unsplash.com/photo-1552733407-5d5c46c3bb3b?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTB8fGt1dGElMjBiZWFjaHxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=800&q=60",
+    "rating": 4.5,
+    "price": 15000,
+    "category": "Pantai"
+  },
+  {
+    "_id": { "$oid": "6815ad1ca0c57dfedfa83207" },
+    "name": "Gunung Api Banda",
+    "location": "Kepulauan Banda, Maluku",
+    "image": "https://images.unsplash.com/photo-1552733407-5d5c46c3bb3b?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTB8fGt1dGElMjBiZWFjaHxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=800&q=60",
+    "rating": 4.7,
+    "price": 50000,
+    "category": "Gunung"
+  },
+  {
+    "_id": { "$oid": "6815ad1ca0c57dfedfa83208" },
+    "name": "Pantai Meti Kecil",
+    "location": "Ternate, Maluku Utara",
+    "image": "https://images.unsplash.com/photo-1552733407-5d5c46c3bb3b?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTB8fGt1dGElMjBiZWFjaHxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=800&q=60",
+    "rating": 4.5,
+    "price": 10000,
+    "category": "Pantai"
+  },
+  {
+    "_id": { "$oid": "6815ad1ca0c57dfedfa83209" },
+    "name": "Pulau Saparua",
+    "location": "Maluku Tengah",
+    "image": "https://images.unsplash.com/photo-1552733407-5d5c46c3bb3b?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTB8fGt1dGElMjBiZWFjaHxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=800&q=60",
+    "rating": 4.7,
+    "price": 500000,
+    "category": "Pulau"
+  },
+  {
+    "_id": { "$oid": "6815ad1ca0c57dfedfa83210" },
+    "name": "Pantai Wasisil",
+    "location": "Seram, Maluku Tengah",
+    "image": "https://images.unsplash.com/photo-1552733407-5d5c46c3bb3b?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTB8fGt1dGElMjBiZWFjaHxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=800&q=60",
+    "rating": 4.6,
+    "price": 20000,
+    "category": "Pantai"
+  },
+  {
+    "_id": { "$oid": "6815ad1ca0c57dfedfa83211" },
+    "name": "Benteng Tolukko",
+    "location": "Ternate, Maluku Utara",
+    "image": "https://images.unsplash.com/photo-1552733407-5d5c46c3bb3b?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTB8fGt1dGElMjBiZWFjaHxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=800&q=60",
+    "rating": 4.5,
+    "price": 15000,
+    "category": "Sejarah"
+  },
+  {
+    "_id": { "$oid": "6815ad1ca0c57dfedfa83212" },
+    "name": "Danau Makila",
+    "location": "Halmahera Selatan, Maluku Utara",
+    "image": "https://images.unsplash.com/photo-1552733407-5d5c46c3bb3b?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTB8fGt1dGElMjBiZWFjaHxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=800&q=60",
+    "rating": 4.4,
+    "price": 20000,
+    "category": "Danau"
+  },
+  {
+    "_id": { "$oid": "6815ad1ca0c57dfedfa83213" },
+    "name": "Pantai Waiselaka",
+    "location": "Maluku Tenggara",
+    "image": "https://images.unsplash.com/photo-1552733407-5d5c46c3bb3b?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTB8fGt1dGElMjBiZWFjaHxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=800&q=60",
+    "rating": 4.7,
+    "price": 25000,
+    "category": "Pantai"
+  },
+  {
+    "_id": { "$oid": "6815ad1ca0c57dfedfa83214" },
+    "name": "Pulau Nusalaut",
+    "location": "Maluku Tengah",
+    "image": "https://images.unsplash.com/photo-1552733407-5d5c46c3bb3b?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTB8fGt1dGElMjBiZWFjaHxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=800&q=60",
+    "rating": 4.6,
+    "price": 450000,
+    "category": "Pulau"
+  },
+  {
+    "_id": { "$oid": "6815ad1ca0c57dfedfa83215" },
+    "name": "Air Terjun Kapala Mada",
+    "location": "Tidore, Maluku Utara",
+    "image": "https://images.unsplash.com/photo-1552733407-5d5c46c3bb3b?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTB8fGt1dGElMjBiZWFjaHxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=800&q=60",
+    "rating": 4.5,
+    "price": 15000,
+    "category": "Air Terjun"
+  },
+  {
+    "_id": { "$oid": "6815ad1ca0c57dfedfa83216" },
+    "name": "Taman Laut Pulau Seram",
+    "location": "Maluku Tengah",
+    "image": "https://images.unsplash.com/photo-1552733407-5d5c46c3bb3b?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTB8fGt1dGElMjBiZWFjaHxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=800&q=60",
+    "rating": 4.8,
+    "price": 100000,
+    "category": "Bahari"
+  },
+  {
+    "_id": { "$oid": "6815ad1ca0c57dfedfa83217" },
+    "name": "Gua Batu Kapal",
+    "location": "Ambon, Maluku",
+    "image": "https://images.unsplash.com/photo-1552733407-5d5c46c3bb3b?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTB8fGt1dGElMjBiZWFjaHxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=800&q=60",
+    "rating": 4.5,
+    "price": 20000,
+    "category": "Goa"
+  },
+  {
+    "_id": { "$oid": "6815ad1ca0c57dfedfa83218" },
+    "name": "Pantai Tial",
+    "location": "Ambon, Maluku",
+    "image": "https://images.unsplash.com/photo-1552733407-5d5c46c3bb3b?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTB8fGt1dGElMjBiZWFjaHxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=800&q=60",
+    "rating": 4.5,
+    "price": 15000,
+    "category": "Pantai"
+  },
+  {
+    "_id": { "$oid": "6815ad1ca0c57dfedfa83219" },
+    "name": "Bukit Marikrubu",
+    "location": "Ternate, Maluku Utara",
+    "image": "https://images.unsplash.com/photo-1552733407-5d5c46c3bb3b?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTB8fGt1dGElMjBiZWFjaHxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=800&q=60",
+    "rating": 4.6,
+    "price": 10000,
+    "category": "Bukit"
+  },
+  {
+    "_id": { "$oid": "6815ad1ca0c57dfedfa83220" },
+    "name": "Pantai Santai Hila",
+    "location": "Ambon, Maluku",
+    "image": "https://images.unsplash.com/photo-1552733407-5d5c46c3bb3b?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTB8fGt1dGElMjBiZWFjaHxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=800&q=60",
+    "rating": 4.5,
+    "price": 15000,
+    "category": "Pantai"
+  }
+]

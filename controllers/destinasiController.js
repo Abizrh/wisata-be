@@ -1,4 +1,4 @@
-const Destinasi = require('../models/Destinasi');
+const Destinasi = require("../models/Destinasi");
 
 // @desc    Get all destinasi
 // @route   GET /api/destinasi
@@ -9,12 +9,12 @@ exports.getDestinasi = async (req, res) => {
     res.json({
       success: true,
       count: destinasi.length,
-      data: destinasi
+      data: destinasi,
     });
   } catch (error) {
     res.status(500).json({
       success: false,
-      message: error.message
+      message: error.message,
     });
   }
 };
@@ -29,18 +29,18 @@ exports.getDestinasiById = async (req, res) => {
     if (!destinasi) {
       return res.status(404).json({
         success: false,
-        message: 'Destinasi not found'
+        message: "Destinasi not found",
       });
     }
 
     res.json({
       success: true,
-      data: destinasi
+      data: destinasi,
     });
   } catch (error) {
     res.status(500).json({
       success: false,
-      message: error.message
+      message: error.message,
     });
   }
 };
@@ -51,17 +51,18 @@ exports.getDestinasiById = async (req, res) => {
 exports.createDestinasi = async (req, res) => {
   try {
     req.body.createdBy = req.user._id;
-    
+
+    req.body.manager_id = req.user._id;
     const destinasi = await Destinasi.create(req.body);
-    
+
     res.status(201).json({
       success: true,
-      data: destinasi
+      data: destinasi,
     });
   } catch (error) {
     res.status(500).json({
       success: false,
-      message: error.message
+      message: error.message,
     });
   }
 };
@@ -76,34 +77,34 @@ exports.updateDestinasi = async (req, res) => {
     if (!destinasi) {
       return res.status(404).json({
         success: false,
-        message: 'Destinasi not found'
+        message: "Destinasi not found",
       });
     }
 
     // Make sure user is the creator or an admin
     if (
       destinasi.createdBy.toString() !== req.user._id.toString() &&
-      req.user.role !== 'admin'
+      req.user.role !== "admin"
     ) {
       return res.status(401).json({
         success: false,
-        message: 'Not authorized to update this destinasi'
+        message: "Not authorized to update this destinasi",
       });
     }
 
     destinasi = await Destinasi.findByIdAndUpdate(req.params.id, req.body, {
       new: true,
-      runValidators: true
+      runValidators: true,
     });
 
     res.json({
       success: true,
-      data: destinasi
+      data: destinasi,
     });
   } catch (error) {
     res.status(500).json({
       success: false,
-      message: error.message
+      message: error.message,
     });
   }
 };
@@ -118,18 +119,18 @@ exports.deleteDestinasi = async (req, res) => {
     if (!destinasi) {
       return res.status(404).json({
         success: false,
-        message: 'Destinasi not found'
+        message: "Destinasi not found",
       });
     }
 
     // Make sure user is the creator or an admin
     if (
       destinasi.createdBy.toString() !== req.user._id.toString() &&
-      req.user.role !== 'admin'
+      req.user.role !== "admin"
     ) {
       return res.status(401).json({
         success: false,
-        message: 'Not authorized to delete this destinasi'
+        message: "Not authorized to delete this destinasi",
       });
     }
 
@@ -137,12 +138,13 @@ exports.deleteDestinasi = async (req, res) => {
 
     res.json({
       success: true,
-      message: 'Destinasi removed'
+      message: "Destinasi removed",
     });
   } catch (error) {
     res.status(500).json({
       success: false,
-      message: error.message
+      message: error.message,
     });
   }
 };
+
